@@ -1,0 +1,3 @@
+#Mapeamento da Extensao Observação
+code		app/code/local/Duit/Observer/
+xml		app/etc/modules/Duit_Observer.xml

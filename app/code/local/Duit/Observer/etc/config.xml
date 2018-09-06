@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <models>
+            <observer>
+                <class>Duit_Observer_Model</class>
+            </observer>
+        </models>
+        <blocks>
+            <observer>
+                <class>Duit_Observer_Block</class>
+            </observer>
+        </blocks>
+        <helpers>
+            <observer>
+                <class>Duit_Observer_Helper</class>
+            </observer>
+        </helpers>
+        <events>
+            <customer_login>
+                <observers>
+                    <observer>
+                        <type>model</type>
+                        <class>observer/observer</class>
+                        <method>logCustomer</method>
+                    </observer>
+                </observers>
+            </customer_login>
+        </events>
+    </global>
+</config>

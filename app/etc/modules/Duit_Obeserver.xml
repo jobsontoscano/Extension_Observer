@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Duit_Observer>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Duit_Observer>
+  </modules>
+</config>
