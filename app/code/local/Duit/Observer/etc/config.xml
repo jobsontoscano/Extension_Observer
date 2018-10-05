@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <config>
+    <modules>
+        <Duit_Observer>
+            <version>0.0.1</version>
+        </Duit_Observer>
+    </modules>
     <global>
         <models>
             <observer>
@@ -17,15 +22,15 @@
             </observer>
         </helpers>
         <events>
-            <customer_login>
+            <sales_order_save_after>
                 <observers>
                     <observer>
                         <type>model</type>
                         <class>observer/observer</class>
-                        <method>logCustomer</method>
+                        <method>observerCoupon</method>
                     </observer>
                 </observers>
-            </customer_login>
+            </sales_order_save_after>
         </events>
     </global>
 </config>
